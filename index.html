@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Inscrição Aula de Capoeira</h1>
-    <p>Para se matricular nas práticas de Capoeira, conclua o formulário</p>
+    <header>
+      <h1>Inscrição Aula de Capoeira</h1>
+      <p>Para se matricular nas práticas de Capoeira, conclua o formulário</p>
+    </header>
     <form>
       <fieldset>
         <p>Nos forneça suas informações</p>
-        <label for='name'>Nome Completo: <input id='name' type='text' required></label>
-        <label for='email'>Email: <input id='email' type='text' required></label>
-        <label for='phone'>Número de Celular: <input id='phone' type='text' required></label>
-        <label for='age'>Idade: <input id='age' type='number' min='10' max='120' required></label>
+        <label for='name'>Nome Completo</label><input id='name' type='text' required>
+        <label for='email'>Email</label><input id='email' type='text' required>
+        <label for='phone'>Número de Celular</label><input id='phone' type='text' required>
+        <label for='age'>Idade</label><input id='age' type='number' min='10' max='120' required>
       </fieldset>
       <fieldset>
         <p>Você já treinou Capoeira antes?</p>
@@ -42,7 +44,7 @@
         <label><input type="checkbox"/>Familiares</label>
       </fieldset>
       <fieldset>
-        <label>Sugestões e Comentários <textarea placeholder="Escreva aqui..."></textarea></label>
+        <label>Sugestões e Comentários</label><textarea placeholder="Escreva aqui..."></textarea>
       </fieldset>
     <input type='submit'>
     </form>
