@@ -2,15 +2,31 @@
 <html lang='en'>
   <head>
     <meta charset="UTF-8">
-    <title>Survey</title>
+    <title>Capoeira</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Survey</h1>
+    <h1>Inscrição Aula de Capoeira</h1>
+    <p>Para se matricular nas práticas de Capoeira, conclua o formulário</p>
     <form>
       <fieldset>
-        <label id='name'>
+        <label for='name'>Nome Completo: <input id='name' type='text' required></label>
+        <label for='email'>Email: <input id='email' type='text' required></label>
+        <label for='age'>Idade: <input id='age' type='number' min='10' max='120' required></label>
       </fieldset>
+      <fieldset>
+        <p>Você já treinou Capoeira antes?</p>
+        <label><input type='radio'>Sim</label>
+        <label><input type='radio' selected>Não</label>
+      </fieldset>
+      <fieldset>
+        
+      </fieldset>
+
+      <fieldset>
+        <label>Sugestões e Comentários<textarea placeholder="Escreva aqui..."></textarea></label>
+      </fieldset>
+    <input type='submit'>
     </form>
   </body>
 </html>
