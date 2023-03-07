@@ -10,21 +10,39 @@
     <p>Para se matricular nas práticas de Capoeira, conclua o formulário</p>
     <form>
       <fieldset>
+        <p>Nos forneça suas informações</p>
         <label for='name'>Nome Completo: <input id='name' type='text' required></label>
         <label for='email'>Email: <input id='email' type='text' required></label>
+        <label for='phone'>Número de Celular: <input id='phone' type='text' required></label>
         <label for='age'>Idade: <input id='age' type='number' min='10' max='120' required></label>
       </fieldset>
       <fieldset>
         <p>Você já treinou Capoeira antes?</p>
         <label><input type='radio'>Sim</label>
         <label><input type='radio' selected>Não</label>
+        <p><em>Se sim, nos informe quanto tempo:</em>
+        <select>
+          <option value="">(Selecione)</option>
+          <option value="1">Nunca</option>
+          <option value="2">Menos de 3 meses</option>
+          <option value="3">Menos de 6 meses</option>
+          <option value="4">Menos de 1 ano</option>
+          <option value="5">Menos de 2 anos</option>
+          <option value="6">Menos de 5 anos</option>
+          <option value="7">Menos de 10 anos</option>
+          <option value="8">Mais de 10 anos</option>
+        </select>
       </fieldset>
       <fieldset>
-        
+        <p>De onde você ficou sabendo das nossa aulas?</p>
+        <label><input type="checkbox"/>Amigos</label>
+        <label><input type="checkbox"/>Escola</label>
+        <label><input type="checkbox"/>Internet</label>
+        <label><input type="checkbox"/>Jornal</label>
+        <label><input type="checkbox"/>Familiares</label>
       </fieldset>
-
       <fieldset>
-        <label>Sugestões e Comentários<textarea placeholder="Escreva aqui..."></textarea></label>
+        <label>Sugestões e Comentários <textarea placeholder="Escreva aqui..."></textarea></label>
       </fieldset>
     <input type='submit'>
     </form>
