@@ -20,7 +20,7 @@ header {
   padding-top: 1em;
 }
 
-h1 {
+#title {
   font-size: 30px;
 }
 
@@ -48,7 +48,7 @@ form {
   margin-bottom: -20px;
 }
 
-.bold, p, h1 {
+.bold, p, #title {
   color: #073B3A;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -80,7 +80,7 @@ input, textarea {
   border-radius: 3px;
 }
 
-input[type='text'], input[type='number'], input[type='tel'], textarea {
+.text, textarea {
   height: 40;
   border-color: grey;
   font-family: 'Poppins', sans-serif;
@@ -104,7 +104,7 @@ label {
   margin: 0.5rem 0;
 }
 
-#button {
+#submit {
   background-color: #073B3A;
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -117,7 +117,7 @@ label {
   cursor: pointer;
 }
 
-#button:hover {
+#submit:hover {
   background-color: white;
   color: #073B3A;
   border-color: #073B3A;
