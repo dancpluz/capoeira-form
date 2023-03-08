@@ -1,59 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
 body{
-  background: url(https://2.bp.blogspot.com/-ZrC3MgDnLLw/V6aY9wql3AI/AAAAAAAAJ_Q/LpjunU8IbvUVUK8UKxxd1Y7fF0cWUPNfQCLcB/s1600/Existe%2BMatem%25C3%25A1tica%2Bna%2BCapoeira.PNG);
-  background-size: cover;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin: 0;
-  color: #ffffff;
-  font-family: Helvetica;
+  font-weight: 500;
   font-size: 16px;
 }
 
 header {
-  margin: 1em auto;
-  text-align: center;
+  width: 70vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-top: 1em;
+  
+}
+
+h1 {
+  font-size: 30px;
+}
+
+img {
+  width: 70px;
+  float:left;
 }
 
 form {
   width: 70vw;
   max-width: 500px;
   min-width: 300px;
-  background-color: #1b1b32A0;
+  background-color: white;
   margin: 0 auto;
   padding-bottom: 2em;
-  border-radius: 20px;
+}
+
+.light,em {
+  color: #8c9999;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.bold, p, h1 {
+  color: #073B3A;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  
+}
+
+.semibold, label{
+  color: #073B3A;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  color: #073B3A;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 fieldset {
   border: none;
-  padding: 1rem 2rem 2rem 2rem;
-  border-bottom: 1px solid #ffffff;
-}
-
-fieldset:last-of-type {
-  border-bottom: none;
+  padding: 1rem 2rem 0 2rem;
 }
 
 input, textarea {
   width: 100%;
   margin: 10px 0 5px 0;
-  border: 1px solid #0a0a23;
-  color: #000000;
+  border: 1.5px solid grey;
+  color: #002525;
+  
+}
+
+input[type='text'], input[type='number'] {
+  height: 40;
+  border-radius: 3px;
+  border-color: grey;
 }
 
 input[type='radio'], input[type='checkbox'] {
   width: 10%;
   vertical-align: middle;
-  margin: 0 0.5em 0 0;
-}
-
-p {
-  font-size: 20px;
-}
-
-em {
-  font-size: 14px
+  margin: 0 0 0 -10;
+  
 }
 
 .inline {
@@ -67,3 +102,14 @@ label {
   margin: 0.5rem 0;
 }
 
+input[type='submit'] {
+  background-color: #073B3A;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  border-radius: 4px;
+  width: 30%;
+  height: 30px;
+  margin-left: 2rem;
+  
+}
