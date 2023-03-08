@@ -8,23 +8,23 @@
   <body>
     <header>
       <img alt='berimbau' src='https://cdn-icons-png.flaticon.com/512/2595/2595807.png'>
-      <h1>Inscrição Aula de Capoeira</h1>
-      <p class='semibold'>Para se matricular nas práticas de Capoeira, conclua o formulário:</p>
+      <h1 id='title'>Inscrição Aula de Capoeira</h1>
+      <p id='description' class='semibold'>Para se matricular nas práticas de Capoeira, conclua o formulário:</p>
     </header>
-    <form>
+    <form id='survey-form'>
       <fieldset>
         <p>Nos forneça suas informações.</p>
-        <label for='name'>Nome Completo</label><input id='name' type='text' placeholder=" Nome Completo" required>
-        <label for='email'>Email</label><input id='email' type='text' placeholder=" Email" required>
-        <label for='phone'>Número de Celular</label><input id='phone' type='tel' placeholder=" Número de Celular" required>
-        <label for='age'>Idade</label><input id='age' type='number' min='5' max='120' placeholder=" Idade" required>
+        <label id='name-label' for='name'>Nome Completo</label><input id='name' class='text' type='text' placeholder=" Nome Completo" required>
+        <label id='email-label' for='email'>Email</label><input id='email' class='text' type='email' placeholder=" Email" required>
+        <label for='phone'>Número de Celular</label><input id='phone' class='text' type='tel' placeholder=" Número de Celular" required>
+        <label id='number-label' for='number'>Idade</label><input id='number' class='text' type='number' min='5' max='120' placeholder=" Idade" required>
       </fieldset>
       <fieldset>
         <p>Você já treinou Capoeira antes?</p>
-        <label><input type='radio' name='treinou'>Sim</label>
-        <label><input name='treinou' type='radio'>Não</label>
+        <label><input value='sim' type='radio' name='treinou'>Sim</label>
+        <label><input name='treinou' value='nao' type='radio'>Não</label>
         <p><em>Se sim, nos informe quanto tempo:</em><br>
-        <select class='semibold'>
+        <select id='dropdown' class='semibold'>
           <option value="">(Selecione)</option>
           <option value="1">Nunca</option>
           <option value="2">Menos de 3 meses</option>
@@ -38,17 +38,17 @@
       </fieldset>
       <fieldset>
         <p>De onde você ficou sabendo das nossa aulas?</p>
-        <label><input type="checkbox"/>Amigos</label>
-        <label><input type="checkbox"/>Escola</label>
-        <label><input type="checkbox"/>Internet</label>
-        <label><input type="checkbox"/>Jornal</label>
-        <label><input type="checkbox"/>Familiares</label>
+        <label><input type="checkbox" value="Amigos"/>Amigos</label>
+        <label><input type="checkbox" value="Escola"/>Escola</label>
+        <label><input type="checkbox" value="Internet"/>Internet</label>
+        <label><input type="checkbox" value="Jornal"/>Jornal</label>
+        <label><input type="checkbox" value="Familiares"/>Familiares</label>
       </fieldset>
       <fieldset>
         <label class='bold'>Sugestões e Comentários</label><textarea rows="3" cols="30" placeholder=" Escreva aqui..."></textarea>
       </fieldset>
     <br>
-    <input id='button' type='submit' value='Enviar'/>
+    <input id='submit' type='submit' value='Enviar'/>
     </form>
   </body>
 </html>
