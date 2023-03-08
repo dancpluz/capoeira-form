@@ -9,20 +9,20 @@
     <header>
       <img alt='berimbau' src='https://cdn-icons-png.flaticon.com/512/2595/2595807.png'>
       <h1>Inscrição Aula de Capoeira</h1>
-      <p class='semibold'>Para se matricular nas práticas de Capoeira, conclua o formulário</p>
+      <p class='semibold'>Para se matricular nas práticas de Capoeira, conclua o formulário:</p>
     </header>
     <form>
       <fieldset>
-        <p>Nos forneça suas informações</p>
-        <label for='name'>Nome Completo</label><input id='name' type='text' required>
-        <label for='email'>Email</label><input id='email' type='text' required>
-        <label for='phone'>Número de Celular</label><input id='phone' type='text' required>
-        <label for='age'>Idade</label><input id='age' type='number' min='10' max='120' required>
+        <p>Nos forneça suas informações.</p>
+        <label for='name'>Nome Completo</label><input id='name' type='text' placeholder=" Nome Completo" required>
+        <label for='email'>Email</label><input id='email' type='text' placeholder=" Email" required>
+        <label for='phone'>Número de Celular</label><input id='phone' type='tel' placeholder=" Número de Celular" required>
+        <label for='age'>Idade</label><input id='age' type='number' min='5' max='120' placeholder=" Idade" required>
       </fieldset>
       <fieldset>
         <p>Você já treinou Capoeira antes?</p>
-        <label><input type='radio'>Sim</label>
-        <label><input type='radio' selected>Não</label>
+        <label><input type='radio' name='treinou'>Sim</label>
+        <label><input name='treinou' type='radio'>Não</label>
         <p><em>Se sim, nos informe quanto tempo:</em><br>
         <select class='semibold'>
           <option value="">(Selecione)</option>
@@ -45,9 +45,10 @@
         <label><input type="checkbox"/>Familiares</label>
       </fieldset>
       <fieldset>
-        <label class='bold'>Sugestões e Comentários</label><textarea class='light' rows="3" cols="30" placeholder="Escreva aqui..."></textarea>
+        <label class='bold'>Sugestões e Comentários</label><textarea rows="3" cols="30" placeholder=" Escreva aqui..."></textarea>
       </fieldset>
-    <input type='submit'>
+    <br>
+    <input id='button' type='submit' value='Enviar'/>
     </form>
   </body>
 </html>
