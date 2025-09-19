@@ -1,52 +1,53 @@
-# Formulário de Inscrição - Capoeira
+# Capoeira Survey Form
 
-Um formulário de inscrição simples e responsivo para uma aula de Capoeira. Este projeto foi desenvolvido como um dos desafios para obter a certificação de "Responsive Web Design" da plataforma **freeCodeCamp**.
+A simple and responsive survey form for a Capoeira class. This project was developed as one of the challenges to obtain the "Responsive Web Design" certification from the **freeCodeCamp** platform.
 
 <picture>
   <img src="https://user-images.githubusercontent.com/64702639/223899033-65ae999f-313f-4688-af25-7c64b15375a9.gif" align="right" width="30%"/>
 </picture>
 
-## 📚 Sobre
+## 📚 About
 
-O objetivo principal deste projeto era aplicar os conceitos de HTML para formulários e estilização com CSS para criar uma página web funcional e visualmente agradável. A página consiste em um formulário de pesquisa/inscrição que coleta informações do usuário, como nome, e-mail, idade e experiência prévia com Capoeira.
+The main goal of this project was to apply concepts of HTML for forms and CSS styling to create a functional and visually appealing web page. The page consists of a survey/registration form that collects user information, such as name, email, age, and previous experience with Capoeira.
 
-Foi uma ótima oportunidade para praticar o uso de diferentes tipos de `input`, como `text`, `radio`, `checkbox`, `dropdowns` (`select`), além de `labels` e `fieldsets` para organizar o conteúdo de forma semântica.
+It was a great opportunity to practice using different types of `input` elements, such as `text`, `radio`, `checkbox`, and `dropdowns` (`select`), as well as `labels` and `fieldsets` to organize the content semantically.
 
 ## 📌 Features
 
--   **Design Responsivo**: O layout se adapta a diferentes tamanhos de tela, de desktops a dispositivos móveis.
--   **Validação de Formulário**: Utiliza atributos HTML5 como `required`, `min` e `max` para validação básica dos campos.
--   **Estilização Customizada**: CSS foi utilizado para criar um layout limpo, com um fundo em gradiente, fontes customizadas do Google Fonts e uma paleta de cores coesa.
--   **Estrutura Semântica**: O HTML foi estruturado de forma a garantir acessibilidade e clareza.
+-   **Responsive Design**: The layout adapts to different screen sizes, from desktops to mobile devices.
+-   **Form Validation**: Uses HTML5 attributes like `required`, `min`, and `max` for basic field validation.
+-   **Custom Styling**: CSS was used to create a clean layout with a gradient background, custom Google Fonts, and a cohesive color palette.
+-   **Semantic Structure**: The HTML is structured to ensure accessibility and clarity.
 
-## 🛠 Construído com
+## 🛠 Built With
 
 <a href="#">
   <img src="https://skillicons.dev/icons?i=html,css" />
 </a>
 
-## 👨‍💻 Como Executar
+## 👨‍💻 How to Run
 
-Para visualizar o projeto localmente, basta seguir os passos abaixo.
+To view the project locally, just follow the steps below.
 
-### Pré-requisitos
+### Prerequisites
 
--   Qualquer navegador de internet moderno (Google Chrome, Firefox, Microsoft Edge, etc.).
+-   Any modern web browser (Google Chrome, Firefox, Microsoft Edge, etc.).
 
-### Passos
+### Steps
 
 ```bash
-# 1. Clone o repositório
+# 1. Clone the repository
 git clone [https://github.com/dancpluz/capoeira-form.git](https://github.com/dancpluz/capoeira-form.git)
 ````
 
 ```bash
-# 2. Navegue até o diretório do projeto
+# 2. Navigate to the project directory
 cd capoeira-form
 ```
 
-3.  Abra o arquivo `index.html` (ou o nome do seu arquivo HTML principal) no seu navegador.
+3.  Open the `index.html` file (or your main HTML file's name) in your browser.
 
-## 👥 Autor
+
+## 👥 Author(s)
 
   - **Daniel Luz** - [dancpluz](https://github.com/dancpluz)
